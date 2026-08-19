@@ -19,7 +19,6 @@ I am a cybersecurity student building hands-on skills through home lab investiga
 
 I document everything as if it were a real investigation — because the habit matters as much as the skill.
 
-**Currently pursuing:** CC ISC2
 **Background:** Hospitality to Cybersecurity
 **Location:** Kathmandu, Nepal
 
@@ -53,12 +52,12 @@ I document everything as if it were a real investigation — because the habit m
 
 | Category | Tools |
 |---|---|
-| **SIEM & Log Management** | Splunk, Elastic Stack (ELK), Wazuh |
+| **SIEM & Log Management** | Splunk, Elastic Stack (ELK) |
 | **Network Analysis** | Wireshark, Zeek, Suricata, tcpdump |
 | **Endpoint & Forensics** | Volatility, Autopsy, FTK Imager, Sysinternals Suite |
 | **Threat Intel** | VirusTotal, AlienVault OTX, MISP, Shodan |
 | **Vulnerability & Scanning** | Nmap, Nessus, OpenVAS |
-| **Operating Systems** | Kali Linux, Ubuntu Server, Windows Server 2019, Windows 10 |
+| **Operating Systems** | Kali Linux, Ubuntu Server, Windows Server 2019, Windows 10/11 |
 
 ---
 
@@ -66,22 +65,22 @@ I document everything as if it were a real investigation — because the habit m
 
 | Certification | Issuer | Status | Date |
 |---|---|---|---|
-| CC | ISC2 | `Candidate` | 31 July |
+| CC | ISC2 | `Passed` | 6 August |
 
 ---
 
 ## Home Lab
 
-My home lab runs on virtualization platform —  VirtualBox.
+My home lab runs on virtualization platform —  Vmware.
 
 **Current setup:**
 
 - **Attack machine:** Kali Linux laptop
-- **Target machines [VM's]:** Windows 11, Ubuntu Desktop, 
+- **Virutal machines [VM's]:** Windows 11 pro, Ubuntu server 
 
 The lab is designed to simulate realistic enterprise scenarios including active directory environments, web server deployments, and attacker-defender exercises.
 
-<!-- > [Link to Lab Architecture Diagram — optional] -->
+![lab](./labs/soc-home-lab-elk-sysmon/screenshots/lab-diagram.png)
 
 ---
 
@@ -140,10 +139,17 @@ A phishing email led a victim to a spoofed Adobe installer page that abused the 
 
 ```
 portfolio/
-├── README.md                  ← You are here
+├─── README.md  ← You are here
+├───labs
+│   └── soc-home-lab-elk-sysmon
+│       ├── incident_report.md  ← High level technical report
+│       ├── readme.md           ← Lab overview
+│       ├── report.md
+│       └── screenshots/
+|                    
 ├── projects/
 │   └── emotet-epoch4-appinstaller/
-│       ├── README.md          ← Project overview
+│       ├── readme.md          ← Project overview
 │       ├── report.md          ← Full technical report
 │       └── screenshots/
 | 
