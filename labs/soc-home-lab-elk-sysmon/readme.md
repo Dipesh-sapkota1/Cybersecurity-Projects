@@ -87,7 +87,6 @@ soc-home-lab-elk-sysmon/
     ├── 07-kibana-tls-cert.png
     ├── 08-sysmon-installed.png
     ├── 09-powershell-logging-enabled.png
-    ├── 10-access-mask-contrast.png
     ├── 10-kibana-discover-live.png
     ├── 11-victim-win-activity.png
     ├── 12-winrm-enabled.png
@@ -129,7 +128,7 @@ soc-home-lab-elk-sysmon/
 
 **Figure 3 — Detection rule isolating the ProcDump LSASS access by access-mask value, vs. routine background access**
 
-![Access mask contrast](./screenshots/10-access-mask-contrast.png)
+![Access mask contrast](./screenshots/22-sysmon-eventid10-sourceimage-contrast.png)
 
 **Figure 4 — Final dashboard: timeline correlation, access-mask breakdown, source-process table, alert count**
 
